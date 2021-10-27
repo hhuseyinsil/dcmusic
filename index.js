@@ -36,7 +36,7 @@ client.on(`ready`, () => {
       
 
       client.user.setActivity(`${PREFIX}help | ${client.guilds.cache.size} Server`, { type: "STREAMING",
-      url: "https://www.twitch.tv/nocopyrightsounds"});
+      url: "https://www.twitch.tv/hhuseyinsil"});
    
   
       }, (5000));
