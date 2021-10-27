@@ -140,6 +140,7 @@ module.exports = {
       let embed = new MessageEmbed()
       .setColor("#F0EAD6")
       .setAuthor(`Started playing: ${song.title}`,'https://cdn.discordapp.com/attachments/778600026280558617/781024479623118878/ezgif.com-gif-maker_1.gif')
+      var playingMessage = await queue.textChannel.send(embed);
       await playingMessage.react("⏭");
       await playingMessage.react("⏯");
       await playingMessage.react("🔉");
